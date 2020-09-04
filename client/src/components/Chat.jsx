@@ -1,6 +1,6 @@
 import React from "react";
 import mapImage from "../assets/Map.svg";
-// import chatImage from "../assets/Chat.svg";
+import chatImage from "../assets/Chatbox.svg";
 
 function Chat() {
   return (
@@ -11,7 +11,7 @@ function Chat() {
       </div>
       <div className="chat__chat-box-container">
         <h4>Chat</h4>
-        <img className="chat__chat-box" src={mapImage} alt="map" />
+        <img className="chat__chat-box" src={chatImage} alt="map" />
       </div>
     </section>
   );
