@@ -5,6 +5,7 @@ import "./index.css";
 
 import Header from "./components/Header";
 import HowToOrder from "./components/HowToOrder";
+import Chat from "./components/Chat";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -12,10 +13,9 @@ ReactDOM.render(
       <Header />
       <Switch>
         <Route path="/" component={HowToOrder}></Route>
+        <Route path="/chat" component={Chat}></Route>
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
-
-//comment
