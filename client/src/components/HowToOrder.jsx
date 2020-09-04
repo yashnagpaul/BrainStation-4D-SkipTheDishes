@@ -45,14 +45,12 @@ export default function HowToOrder() {
         <div className="how-to-order__icon-container">
           <a href="tel:123-456-7890">
             <div className="how-to-order__btn">
-              <img className="how-to-order__icon" src={callIcon} alt="" />
-              Call
+              <img className="how-to-order__icon" src={callbtn} alt="" />
             </div>
           </a>
           <a href="#chatSection">
             <div className="how-to-btn">
-              <img className="how-to-order__icon" src={messageIcon} alt="" />
-              Chat
+              <img className="how-to-order__icon" src={messagebtn} alt="" />
             </div>
           </a>
         </div>
