@@ -1,14 +1,21 @@
+//Dependencies
 import React from "react";
-import callIcon from "../assets/phone.svg";
-import messageIcon from "../assets/comment.svg";
 import { Link } from "react-router-dom";
+// Assets
+import messagebtn from "../assets/chatButton.svg";
+import callbtn from '../assets/call-Button.svg';
+import step1 from '../assets/Step 1.svg';
+import step2 from '../assets/Step 2.svg'
 
 export default function HowToOrder() {
   return (
     <div className="how-to-order">
       <section className="how-to-order__left-side">
-        <div>1</div>
-        Enter your information below.
+        <div className="steps">
+          <img className="how-to-order__steps" src={step1} alt="" />
+          <h3>Enter your information below.</h3>
+        </div>
+        <div className="inputs">
         <input
           className="how-to-order__text-input"
           type="text"
@@ -24,25 +31,26 @@ export default function HowToOrder() {
           type="text"
           placeholder="Phone Number"
         ></input>
+        </div>
       </section>
 
       <section className="how-to-order__right-side">
-        <div>2</div>
+        <div className="steps">
+        <img className="how-to-order__steps" src={step2} alt="" />
         <h3>
           Please select an option below and someone can help you place your
           order.
         </h3>
+        </div>
         <div className="how-to-order__icon-container">
           <Link to="/talk">
-            <div className="how-to-order__call-btn">
-              <img className="how-to-order__icon" src={callIcon} alt="" />
-              Call
+            <div className="how-to-order__btn">
+              <img className="how-to-order__icon" src={callbtn} alt="" />
             </div>
           </Link>
           <Link to="/talk">
-            <div className="how-to-order__icon">
-              <img className="how-to-order__icon" src={messageIcon} alt="" />
-              Chat
+            <div className="how-to-order__btn">
+              <img className="how-to-order__icon" src={messagebtn} alt="" />
             </div>
           </Link>
         </div>
