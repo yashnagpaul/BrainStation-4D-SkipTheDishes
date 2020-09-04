@@ -43,7 +43,7 @@ export default function HowToOrder() {
           </h3>
         </div>
         <div className="how-to-order__icon-container">
-          <a href="tel:123-456-7890">
+          <a href="tel:855-200-7547">
             <div className="how-to-order__btn">
               <img className="how-to-order__icon" src={callbtn} alt="" />
             </div>
