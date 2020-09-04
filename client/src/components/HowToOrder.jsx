@@ -49,7 +49,7 @@ export default function HowToOrder() {
             </div>
           </Link>
           <Link to="/talk">
-            <div className="how-to-order__btn">
+            <div className="how-to-order__">
               <img className="how-to-order__icon" src={messagebtn} alt="" />
             </div>
           </Link>
