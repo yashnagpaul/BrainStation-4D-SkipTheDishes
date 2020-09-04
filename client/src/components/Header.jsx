@@ -1,5 +1,10 @@
 import React from "react";
+import skipLogo from "../assets/SkipTheDishes_logo.svg";
 
 export default function Header() {
-  return <h1>BrainStation 4D Hackathon feat. SkipTheDishes</h1>;
+  return (
+    <div class="header">
+      <img className="header__logo" src={skipLogo} alt="skip logo" />
+    </div>
+  );
 }

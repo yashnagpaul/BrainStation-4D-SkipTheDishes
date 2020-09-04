@@ -1,0 +1,50 @@
+/* UTILITY RESETS */
+
+body {
+  background-image: url("./assets/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fc6a08;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// HEADER COMPONENT
+
+.header {
+  height: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  &__logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 50px;
+  }
+}
+
+// HowToOrder component
+.how-to-order {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  h1 {
+    font-size: 48px;
+    font-weight: 500;
+  }
+
+  &__icon-container {
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+  }
+
+  &__icon {
+    height: 40px;
+  }
+}
