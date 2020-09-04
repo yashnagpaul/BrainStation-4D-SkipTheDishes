@@ -47,9 +47,15 @@ export default function HowToOrder() {
             <div className="how-to-order__btn">
               <img className="how-to-order__icon" src={callbtn} alt="" />
             </div>
+<<<<<<< HEAD
           </a>
           <a href="#chatSection">
             <div className="how-to-btn">
+=======
+          </Link>
+          <Link to="/talk">
+            <div className="how-to-order__">
+>>>>>>> 420d1929ebb21bfb36590860ba99cd894b07e82e
               <img className="how-to-order__icon" src={messagebtn} alt="" />
             </div>
           </a>
